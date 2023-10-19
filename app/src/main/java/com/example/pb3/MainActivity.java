@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 
@@ -43,7 +44,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showRecyclerList() {
-        rvList.setLayoutManager(new LinearLayoutManager(this));
+        rvList.setLayoutManager(new GridLayoutManager(this, 2));
+        if(getApplicationContext().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            rvList.setLayoutManager(new GridLayoutManager(this, 2));
+        } else {
+            rvList.setLayoutManager(new LinearLayoutManager(this));
+        }
         ListAdapter listAdapter = new ListAdapter(list);
         rvList.setAdapter(listAdapter);
     }
