@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">PB3</string>
+    <string name="nama_testing">Nama</string>
+    <string name="desc">Deskripsi</string>
+    <string name="email">Email</string>
+    <string name="alamat">Alamat</string>
+    <string-array name="data_name">
+        <item>Ittou Chitouse</item>
+        <item>Naruto</item>
+        <item>Yaya</item>
+        <item>Gopal</item>
+        <item>Adudu</item>
+        <item>Jokowi</item>
+        <item>Wakanda</item>
+
+    </string-array>
+    <string-array name="data_desc">
+        <item>Waifu saya</item>
+        <item>Testing</item>
+        <item>Testing</item>
+        <item>Testing</item>
+        <item>Testing</item>
+        <item>Testing</item>
+        <item>Testing</item>
+
+    </string-array>
+    <string-array name="data_alamat">
+        <item>jambi1</item>
+         <item>jambi2</item>
+         <item>jambi3</item>
+         <item>jambi4</item>
+         <item>jambi5</item>
+         <item>jambi6</item>
+         <item>jambi7</item>
+
+    </string-array>
+    <string-array name="data_email">
+        <item>email1</item>
+        <item>email2</item>
+        <item>email3</item>
+        <item>email4</item>
+        <item>email5</item>
+        <item>email6</item>
+        <item>email7</item>
+
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/anime</item>
+        <item>@drawable/yae</item>
+        <item>@drawable/anime3</item>
+        <item>@drawable/miku</item>
+        <item>@drawable/leo</item>
+        <item>@drawable/maki</item>
+        <item>@drawable/jujutsu</item>
+
+    </integer-array>
+</resources>
