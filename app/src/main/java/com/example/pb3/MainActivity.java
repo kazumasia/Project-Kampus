@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         if(getApplicationContext().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
             rvList.setLayoutManager(new GridLayoutManager(this, 2));
         } else {
+
             rvList.setLayoutManager(new LinearLayoutManager(this));
         }
         ListAdapter listAdapter = new ListAdapter(list);
