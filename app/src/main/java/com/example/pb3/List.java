@@ -7,6 +7,7 @@ public class List implements Parcelable {
     private String name;
     private String description;
     private Integer photo;
+    private Integer latar;
 
     public String getName() {
         return name;
@@ -28,6 +29,11 @@ public class List implements Parcelable {
         return photo;
     }
 
+    public Integer getLatar(){return latar;}
+
+    public void setLatar(Integer latar) {
+        this.latar = latar;
+    }
     public void setPhoto(Integer photo) {
         this.photo = photo;
     }

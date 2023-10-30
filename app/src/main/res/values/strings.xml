@@ -4,55 +4,110 @@
     <string name="desc">Deskripsi</string>
     <string name="email">Email</string>
     <string name="alamat">Alamat</string>
+
     <string-array name="data_name">
-        <item>Ittou Chitouse</item>
-        <item>Naruto</item>
-        <item>Yaya</item>
-        <item>Gopal</item>
-        <item>Adudu</item>
-        <item>Jokowi</item>
-        <item>Wakanda</item>
+        <item>Asmi Naya Fitri</item>
+        <item>Rehandoko Pratama</item>
+        <item>Tanti Ardiana</item>
+        <item>Dhaifan Fathur Rahman</item>
+        <item>M. Yoga Pradinata</item>
+        <item>Elvira</item>
+        <item>Kevin Geraldy Farhan</item>
+        <item>Dimas Hadi Yanto</item>
+        <item>Tegar Irsyad Kholidin</item>
+        <item>Oktari</item>
+
+
 
     </string-array>
     <string-array name="data_desc">
-        <item>Waifu saya</item>
-        <item>Testing</item>
-        <item>Testing</item>
-        <item>Testing</item>
-        <item>Testing</item>
-        <item>Testing</item>
-        <item>Testing</item>
+        <item>Quality Rater Welocalize | Undergraduate Information System Student at Sriwijaya University</item>
+        <item>UI/UX Enthusiast | Undergraduate Information System Student at Sriwijaya University</item>
+        <item>Analyst Enthusiast | Undergraduate Information System Student at Sriwijaya University</item>
+        <item>Coding Enjoyer | Undergraduate Information System Student at Sriwijaya University</item>
+        <item>Undergraduate Information System Student at Sriwijaya University</item>
+        <item>Undergraduate Information System Student at Sriwijaya University</item>
+        <item>Undergraduate Information System Student at Sriwijaya University</item>
+        <item>Undergraduate Information System Student at Sriwijaya University</item>
+        <item>Undergraduate Information System Student at Sriwijaya University</item>
+        <item>Undergraduate Information System Student at Sriwijaya University</item>
+
+
 
     </string-array>
     <string-array name="data_alamat">
-        <item>jambi1</item>
-         <item>jambi2</item>
-         <item>jambi3</item>
-         <item>jambi4</item>
-         <item>jambi5</item>
-         <item>jambi6</item>
-         <item>jambi7</item>
+        <item>Gg. Buntu Indralaya, Palembang, Sumatera Selatan, Indonesia</item>
+        <item>Gg. Buntu Indralaya</item>
+        <item>Timbangan, Indralaya</item>
+        <item>Sarjana, Indralaya</item>
+        <item>Palembang</item>
+        <item>Gg Lampung 2, Indralaya</item>
+        <item>Palembang</item>
+        <item>Gg Lampung 2, Indralaya</item>
+        <item>Timbangan, Indralaya</item>
+        <item>Gg. Buntu Indralaya</item>
+
+
+
 
     </string-array>
     <string-array name="data_email">
-        <item>email1</item>
-        <item>email2</item>
-        <item>email3</item>
-        <item>email4</item>
-        <item>email5</item>
-        <item>email6</item>
-        <item>email7</item>
+        <item>asminayahfitri@gmail.com</item>
+        <item>rehandokop373@gmail.com</item>
+        <item>tantiardiana@gmail.com</item>
+        <item>daifanhut12@gmail.com</item>
+        <item>yogapradinata@gmail.com</item>
+        <item>elvirasaharani@gmail.com</item>
+        <item>kevingeraldyfarhan@gmail.com</item>
+        <item>dimashadiyanto@gmail.com</item>
+        <item>tegarirsyad@gmail.com</item>
+        <item>oktaritha@gmail.com</item>
+
+
 
     </string-array>
 
     <integer-array name="data_photo">
-        <item>@drawable/anime</item>
-        <item>@drawable/yae</item>
-        <item>@drawable/anime3</item>
-        <item>@drawable/miku</item>
-        <item>@drawable/leo</item>
-        <item>@drawable/maki</item>
-        <item>@drawable/jujutsu</item>
+        <item>@drawable/naya</item>
+        <item>@drawable/rehan</item>
+        <item>@drawable/tanti</item>
+        <item>@drawable/daipan</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/elvira</item>
+        <item>@drawable/kepin</item>
+        <item>@drawable/dimas</item>
+        <item>@drawable/tegar</item>
+        <item>@drawable/oktari</item>
+
 
     </integer-array>
+
+    <integer-array name="data_latar">
+        <item>@drawable/naya</item>
+        <item>@drawable/rehan</item>
+        <item>@drawable/tanti</item>
+        <item>@drawable/daipan</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/elvira</item>
+        <item>@drawable/kepin</item>
+        <item>@drawable/dimas</item>
+        <item>@drawable/tegar</item>
+        <item>@drawable/oktari</item>
+
+
+    </integer-array>
+
+    <integer-array name="latar">
+    <item>@drawable/nayabanner</item>
+    <item>@drawable/rehanbanner</item>
+    <item>@drawable/tantibanner</item>
+    <item>@drawable/daipanbanner</item>
+    <item>@drawable/yogabanner</item>
+    <item>@drawable/elvibanner</item>
+    <item>@drawable/kepinbanner</item>
+    <item>@drawable/dimasbanner</item>
+    <item>@drawable/tegarbanner</item>
+    <item>@drawable/oktaribanner</item>
+    </integer-array>
+
 </resources>

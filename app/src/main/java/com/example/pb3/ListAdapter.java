@@ -33,6 +33,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
         holder.tvName.setText(list.getName());
         holder.tvDescription.setText(list.getDescription());
 
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,13 +43,14 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
 
                 // Membuat Intent untuk memulai DetailUserActivity
                 Intent intent = new Intent(view.getContext(), DetailUser.class);
-                Intent tail = new Intent(view.getContext(), DetailUser.class);
                 intent.putExtra("position", position);
 
                 // Mengirim data pengguna ke DetailUserActivity
                 intent.putExtra("name", user.getName()); //
                 intent.putExtra("description", user.getDescription());
                 intent.putExtra("photo", user.getPhoto());
+                intent.putExtra("latar", user.getLatar());
+
 
                 view.getContext().startActivity(intent);
 
@@ -63,7 +65,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
     }
 
     class ListViewHolder extends RecyclerView.ViewHolder {
-        ImageView imgPhoto;
+        ImageView imgPhoto,latar;
         TextView tvName, tvDescription;
 
         ListViewHolder(View itemView) {
@@ -71,6 +73,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
             imgPhoto = itemView.findViewById(R.id.img_item_photo);
             tvName = itemView.findViewById(R.id.tv_item_name);
             tvDescription = itemView.findViewById(R.id.tv_item_description);
+            latar   = itemView.findViewById(R.id.latar_belakang);
         }
     }
 }

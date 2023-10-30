@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("List User");
+
 
         rvList = findViewById(R.id.rv_ListMain);
         rvList.setHasFixedSize(true);
@@ -32,12 +34,14 @@ public class MainActivity extends AppCompatActivity {
         String[] dataName = getResources().getStringArray(R.array.data_name);
         String[] dataDescription = getResources().getStringArray(R.array.data_desc);
         TypedArray dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
+        TypedArray dataLatar = getResources().obtainTypedArray(R.array.latar);
         ArrayList<List> listKuma = new ArrayList<>();
         for (int i = 0; i < dataName.length; i++) {
             List kuma = new List();
             kuma.setName(dataName[i]);
             kuma.setDescription(dataDescription[i]);
             kuma.setPhoto(dataPhoto.getResourceId(i, -1));
+            kuma.setLatar(dataLatar.getResourceId(i,-1));
             listKuma.add(kuma);
         }
         return listKuma;
